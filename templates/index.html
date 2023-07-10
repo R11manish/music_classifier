@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Music Genre Classification</title>
+</head>
+
+<body>
+  <h1>Music Genre Classification</h1>
+  <form action="/predict" method="POST" enctype="multipart/form-data">
+    <input type="file" name="audio" accept=".wav, .mp3" required>
+    <input type="submit" value="Predict Genre">
+  </form>
+</body>
+
+</html>
